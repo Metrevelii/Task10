@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
         <link rel="stylesheet" type="text/css" href="styles/reset.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" href="styles/fonts.css">
-        <title>Task 10</title>
-    </head>
-    <body>
-        <header>
-            <div class="row">
-                <div class="header-container1">
-                    <img src="pictures/image.png" alt="image">
-                    <h3 class="header-headline1">Tour Booking Form</h3>
-                </div>
+   </head>
+   <body>
+    <header>
+        <div class="row">
+            <div class="header-container2">
+                <img src="pictures/map.png" alt="map">
+                <h3 class="header-headline2">Tour Booking Form</h3>
             </div>
-        </header>
-        <section>
-            <div class="row">
-                <div class="form-container">
-                    <form>
-                        <div class="form-content">
-                            <label for="question">When are you planning to visit?</label>
-                            <input type="number" name="date" id="date" class="input-form" placeholder="mm/dd/yyyy" required>
-                        </div>
-                        <div class="form-content">
-                            <label for="question">How many people are in your group?</label>
-                            <input type="number" name="number" class="input-form"  required>
-                        </div>
-                        <div class="form-content">
-                            <label for="question">Which tours or events are you most interested in?</label>
-                            <input type="text" name="text"  class="input-form" required>
-                        </div>
-                        <h4 class="fill-headline">What is the best way to contact you?</h4>
-                        <div class="fill-form-content">
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="form-container">
+                <form>
+                    <div class="form-content">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="input-form"  required>
+                    </div>
+                    <div class="form-content">
+                        <label for="email">Email</label>
+                        <input type="email" name="email"  class="input-form"  required>
+                    </div>
+                    <div class="form-content">
+                        <label for="text">Subject</label>
+                        <input type="text" name="text"  class="input-form"  required>
+                    </div>
+                        <div class="fill-form-content1">
+                            <h4 class="fill-headline">What is the best way to contact you?</h4>
                             <div class="first-row1">
                                 <div class="forpadding">
                                     <input type="checkbox" name="phone" id="phone" class="fill-text1">
@@ -48,7 +47,8 @@
                                 </div>
                             </div>
                         </div>
-                        <h4 class="fill-headline">If phone, when is the best time of day for a call-back?</h4>
+                        <div class="fill-form-content2">
+                            <h4 class="fill-headline">If phone, when is the best time of day for a call-back?</h4>
                         <div class="fill-form-content">
                             <div class="first-row1">
                                 <div class="forpadding1">
@@ -65,20 +65,17 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
                         <div class="form-content">
-                            <label for="comment">Anything else we should know?</label>
+                            <label for="comment">Message</label>
                             <textarea name="comment" id="comment" class="input-form"></textarea>
                         </div>
                         <div class="form-content">
-                            <label for="comment">And last, how did you hear about us?</label>
-                            <textarea name="comment" id="comment" class="input-form"></textarea>
-                        </div>
-                        <div class="form-content">
-                            <a href="index2.html">Send</a>
+                            <a href="index.html">Send</a>
                         </div>
                     </form>
                 </div>
             </div>
         </section>
-    </body>
+   </body>
 </html>
