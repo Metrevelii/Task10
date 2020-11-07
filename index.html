@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <title>Task 10</title>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="header-container">
+                    <img src="pictures/bg.png" alt="header-img">
+                    <h3 class="header-headline">Tour Booking Form</h3>
+                </div>    
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="form-container">
+                    <form>
+                        <div class="form-content">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="input-form" placeholder="First" required>
+                        </div>
+                        <div class="form-content">
+                            <input type="text" name="lastname" id="lastname" class="input-form" placeholder="Last" required>
+                        </div>
+                        <div class="form-content">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" class="input-form" required>
+                        </div>
+                         <div class="form-content">
+                            <label for="number">Phone</label>
+                            <input type="number" name="phone-number" id="phone-number" class="input-form" placeholder="### ### ###" required>
+                        </div>
+                        <h4 class="fill-headline">Hobby</h4>
+                        <div class="fill-form-content">
+                            <div class="first-row">
+                                <div>
+                                    <input type="checkbox" name="reading" id="reading" class="fill-text">
+                                    <label for="reading">Reading</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="dacing" id="dancing" class="fill-text">
+                                    <label for="dancing">Dancing</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="travelling" id="travelling" class="fill-text">
+                                    <label for="travelling">Travelling</label>
+                                </div>
+                            </div>
+                              <div class="second-row">
+                                <div>
+                                    <input type="checkbox" name="coding" id="coding" class="fill-text">
+                                    <label for="coding">Coding</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="design" id="design" class="fill-text">
+                                    <label for="design">Design</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="either" id="either" class="fill-text">
+                                    <label for="either">Either</label>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="fill-headline">if phone, when is the best time of day for a call-back?</h5>
+                            <div class="form-content">
+                                <label for="comment">And last, how did you hear about us?</label>
+                                <textarea name="comment" id="comment" class="input-form"></textarea>
+                            </div>
+                            <div class="form-content">
+                                <button>Send</button>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
