@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+        <title>Task 10</title>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="header-container1">
+                    <img src="pictures/image.png" alt="image">
+                    <h3 class="header-headline1">Tour Booking Tour</h3>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="row">
+                <div class="form-container">
+                    <form>
+                        <div class="form-content">
+                            <label for="question">When are you planning to visit?</label>
+                            <input type="number" name="date" id="date" class="input-form" placeholder="mm/dd/yyyy" required>
+                        </div>
+                        <div class="form-content">
+                            <label for="question">How many people are in your group?</label>
+                            <input type="number" name="number" class="input-form"  required>
+                        </div>
+                        <div class="form-content">
+                            <label for="question">Which tours or events are you most interested in?</label>
+                            <input type="text" name="text"  class="input-form" required>
+                        </div>
+                        <h4 class="fill-headline">What is the best way to contact you?</h4>
+                        <div class="fill-form-content">
+                            <div class="first-row1">
+                                <div class="forpadding">
+                                    <input type="checkbox" name="phone" id="phone" class="fill-text1">
+                                    <label for="phone">Phone</label>
+                                </div>
+                                <div class="forpadding">
+                                    <input type="checkbox" name="email" id="email" class="fill-text1">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="forpadding">
+                                    <input type="checkbox" name="either" id="either" class="fill-text1">
+                                    <label for="either">Either</label>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="fill-headline">If phone, when is the best time of day for a call-back?</h4>
+                        <div class="fill-form-content">
+                            <div class="first-row1">
+                                <div class="forpadding1">
+                                    <input type="radio" name="time" id="time" class="fill-text1">
+                                    <label for="time">8-11PM</label>
+                                </div>
+                                <div class="forpadding1">
+                                    <input type="radio" name="time"  class="fill-text1">
+                                    <label for="time">12-4AM</label>
+                                </div>
+                                <div class="forpadding1">
+                                    <input type="radio" name="time" class="fill-text1">
+                                    <label for="time">6-10PM</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-content">
+                            <label for="comment">Anything else we should know?</label>
+                            <textarea name="comment" id="comment" class="input-form"></textarea>
+                        </div>
+                        <div class="form-content">
+                            <label for="comment">And last, how did you hear about us?</label>
+                            <textarea name="comment" id="comment" class="input-form"></textarea>
+                        </div>
+                        <div class="form-content">
+                            <a href="#">Send</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
