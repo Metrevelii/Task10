@@ -66,8 +66,18 @@ label {
 }
 .fill-text {
     margin-bottom: 23px;
+    
+}
+
+.fill-text:checked {
     color: #103ADA;
 }
+
+
+/*input:focus {
+    color: #103ADA;
+}*/
+
 .forpadding {
     padding-bottom: 23px;
 }
